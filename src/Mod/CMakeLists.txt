@@ -6,6 +6,10 @@ if(BUILD_ADDONMGR)
   add_subdirectory(AddonManager)
 endif(BUILD_ADDONMGR)
 
+if(BUILD_AVOCAD)
+  add_subdirectory(AvoCAD)
+endif(BUILD_AVOCAD)
+
 if(BUILD_BIM)
   add_subdirectory(BIM)
 endif(BUILD_BIM)
